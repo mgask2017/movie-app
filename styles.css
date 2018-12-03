@@ -1,0 +1,33 @@
+/* ====Movie and button formatting ===== */
+#search-button {
+    margin-top: 10px;
+}
+
+a.btn.btn-primary {
+  margin: 0 0 10px 0;
+}
+
+.movie-title-search {
+  margin: 5px 0 10px 0;
+}
+
+/* ==== Movie formatting ==== */
+#movies img, #movie img{
+  width: 205px;
+  
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+
+  img.thumbnail.rounded.mx-auto.d-block {
+   padding-top:20px;
+  }
+}
+
